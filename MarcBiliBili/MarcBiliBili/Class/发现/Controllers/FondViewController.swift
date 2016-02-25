@@ -10,4 +10,10 @@ import UIKit
 
 class FondViewController: BaseViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.title = "发现"
+    }
+
 }

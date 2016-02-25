@@ -9,5 +9,11 @@
 import UIKit
 
 class MineVIewController: BaseViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.title = "我的"
+    }
 
 }
