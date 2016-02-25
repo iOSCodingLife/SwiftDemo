@@ -16,7 +16,7 @@ class BaseNavigationController: UINavigationController {
         //设置naviBar背景图片
         UINavigationBar.appearance().setBackgroundImage(UIImage.init(named: "navigationbarBackgroundWhite"), forBarMetrics: UIBarMetrics.Default)
         //设置title的字体
-        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName:UIFont.systemFontOfSize(20)]
+        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName:UIFont.systemFontOfSize(17)]
         
         
     }

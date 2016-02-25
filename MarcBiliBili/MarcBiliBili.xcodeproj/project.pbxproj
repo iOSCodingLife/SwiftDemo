@@ -51,6 +51,7 @@
 		1CCF1D031C7EE387007E3743 /* navigationButtonReturnClick.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCF1D001C7EE387007E3743 /* navigationButtonReturnClick.png */; };
 		1CCF1D041C7EE387007E3743 /* navigationButtonReturnClick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCF1D011C7EE387007E3743 /* navigationButtonReturnClick@2x.png */; };
 		1CCF1D051C7EE387007E3743 /* navigationButtonReturnClick@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCF1D021C7EE387007E3743 /* navigationButtonReturnClick@3x.png */; };
+		1CCF1D071C7EE957007E3743 /* navigationbarBackgroundWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCF1D061C7EE957007E3743 /* navigationbarBackgroundWhite.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +122,7 @@
 		1CCF1D001C7EE387007E3743 /* navigationButtonReturnClick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationButtonReturnClick.png; sourceTree = "<group>"; };
 		1CCF1D011C7EE387007E3743 /* navigationButtonReturnClick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonReturnClick@2x.png"; sourceTree = "<group>"; };
 		1CCF1D021C7EE387007E3743 /* navigationButtonReturnClick@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationButtonReturnClick@3x.png"; sourceTree = "<group>"; };
+		1CCF1D061C7EE957007E3743 /* navigationbarBackgroundWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationbarBackgroundWhite.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -489,6 +491,7 @@
 		1CCF1CC41C7EE30A007E3743 /* NavImages */ = {
 			isa = PBXGroup;
 			children = (
+				1CCF1D061C7EE957007E3743 /* navigationbarBackgroundWhite.png */,
 				1CCF1D001C7EE387007E3743 /* navigationButtonReturnClick.png */,
 				1CCF1D011C7EE387007E3743 /* navigationButtonReturnClick@2x.png */,
 				1CCF1D021C7EE387007E3743 /* navigationButtonReturnClick@3x.png */,
@@ -658,6 +661,7 @@
 				1CCF1CED1C7EE30A007E3743 /* tabBar_friendTrends_icon@3x.png in Resources */,
 				1CCF1CE41C7EE30A007E3743 /* tabBar_essence_click_icon@3x.png in Resources */,
 				1CCF1CF41C7EE30A007E3743 /* tabBar_new_click_icon.png in Resources */,
+				1CCF1D071C7EE957007E3743 /* navigationbarBackgroundWhite.png in Resources */,
 				1CCF1CF31C7EE30A007E3743 /* tabBar_me_icon@3x.png in Resources */,
 				1CCF1CE21C7EE30A007E3743 /* tabBar_essence_click_icon.png in Resources */,
 				1CCF1CEB1C7EE30A007E3743 /* tabBar_friendTrends_icon.png in Resources */,
