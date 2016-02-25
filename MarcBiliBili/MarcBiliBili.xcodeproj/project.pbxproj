@@ -73,6 +73,7 @@
 		1CCF1D4F1C7EEC5E007E3743 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1D3A1C7EEC5E007E3743 /* UIScrollView+MJExtension.m */; };
 		1CCF1D501C7EEC5E007E3743 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1D3C1C7EEC5E007E3743 /* UIScrollView+MJRefresh.m */; };
 		1CCF1D511C7EEC5E007E3743 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1D3E1C7EEC5E007E3743 /* UIView+MJExtension.m */; };
+		1CCF1D541C7EF222007E3743 /* ImageTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1D531C7EF222007E3743 /* ImageTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,6 +187,7 @@
 		1CCF1D3C1C7EEC5E007E3743 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		1CCF1D3D1C7EEC5E007E3743 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		1CCF1D3E1C7EEC5E007E3743 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		1CCF1D531C7EF222007E3743 /* ImageTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +285,7 @@
 				1CBF35FF1C7E949000177D99 /* BaseViewController.swift */,
 				1CBF363E1C7EE17300177D99 /* BaseNavigationController.swift */,
 				1CCF1D081C7EEAD6007E3743 /* Bili-Brigding-Header.h */,
+				1CCF1D521C7EF1FD007E3743 /* Tool */,
 				1CBF36091C7E9A9900177D99 /* Images */,
 			);
 			path = Base;
@@ -728,6 +731,14 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		1CCF1D521C7EF1FD007E3743 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1CCF1D531C7EF222007E3743 /* ImageTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -912,6 +923,7 @@
 				1CCF1D421C7EEC5E007E3743 /* MJRefreshFooter.m in Sources */,
 				1CCF1D411C7EEC5E007E3743 /* MJRefreshComponent.m in Sources */,
 				1CCF1D471C7EEC5E007E3743 /* MJRefreshBackGifFooter.m in Sources */,
+				1CCF1D541C7EF222007E3743 /* ImageTool.swift in Sources */,
 				1CBF36081C7E95A600177D99 /* AttentionViewController.swift in Sources */,
 				1CCF1D4C1C7EEC5E007E3743 /* MJRefreshStateHeader.m in Sources */,
 				1CCF1D491C7EEC5E007E3743 /* MJRefreshBackStateFooter.m in Sources */,
