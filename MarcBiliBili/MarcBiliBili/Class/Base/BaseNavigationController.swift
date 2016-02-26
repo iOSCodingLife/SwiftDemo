@@ -14,7 +14,9 @@ class BaseNavigationController: UINavigationController {
     override class func initialize(){
         
         //设置naviBar背景图片
-        UINavigationBar.appearance().setBackgroundImage(UIImage.init(named: "navigationbarBackgroundWhite"), forBarMetrics: UIBarMetrics.Default)
+//        UINavigationBar.appearance().setBackgroundImage(UIImage.init(named: "navigationbarBackgroundWhite"), forBarMetrics: UIBarMetrics.Default)
+        UINavigationBar.appearance().setBackgroundImage(UIImage.createImageWithColor(UIColor.colorWithHexString("F45988")), forBarMetrics: UIBarMetrics.Default)
+
         //设置title的字体
         UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName:UIFont.systemFontOfSize(17)]
         

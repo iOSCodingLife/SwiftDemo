@@ -13,8 +13,7 @@ class MineVIewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "我的"
-        
+       self.title = "我的"
        self.view.backgroundColor = UIColor.colorWithHexString("fc8529")
         
     }

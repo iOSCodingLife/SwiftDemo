@@ -79,6 +79,9 @@
 		1CEEADB01C7FEE8E0093108B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEADAC1C7FEE8E0093108B /* UIView+Extension.swift */; };
 		1CEEADB11C7FEE8E0093108B /* UIDevice + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEADAD1C7FEE8E0093108B /* UIDevice + Extension.swift */; };
 		1CEEADB31C7FEE8E0093108B /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEADAF1C7FEE8E0093108B /* String + Extension.swift */; };
+		1CEEADB51C7FF4A10093108B /* MineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEADB41C7FF4A10093108B /* MineTableViewCell.swift */; };
+		1CEEADB81C801A7F0093108B /* bilibili_splash_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEEADB61C801A7F0093108B /* bilibili_splash_default@2x.png */; };
+		1CEEADB91C801A7F0093108B /* bilibili_splash_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEEADB71C801A7F0093108B /* bilibili_splash_default@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -198,6 +201,9 @@
 		1CEEADAC1C7FEE8E0093108B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1CEEADAD1C7FEE8E0093108B /* UIDevice + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice + Extension.swift"; sourceTree = "<group>"; };
 		1CEEADAF1C7FEE8E0093108B /* String + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		1CEEADB41C7FF4A10093108B /* MineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineTableViewCell.swift; sourceTree = "<group>"; };
+		1CEEADB61C801A7F0093108B /* bilibili_splash_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilibili_splash_default@2x.png"; sourceTree = "<group>"; };
+		1CEEADB71C801A7F0093108B /* bilibili_splash_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilibili_splash_default@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -490,6 +496,7 @@
 		1CBF35F61C7E944800177D99 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1CEEADB41C7FF4A10093108B /* MineTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -561,6 +568,8 @@
 		1CBF36091C7E9A9900177D99 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1CEEADB61C801A7F0093108B /* bilibili_splash_default@2x.png */,
+				1CEEADB71C801A7F0093108B /* bilibili_splash_default@3x.png */,
 				1CCF1CC41C7EE30A007E3743 /* NavImages */,
 				1CCF1CC51C7EE30A007E3743 /* TabarImages */,
 			);
@@ -894,7 +903,9 @@
 				1CCF1D101C7EEC53007E3743 /* ProgressHUD.bundle in Resources */,
 				1CCF1CFF1C7EE375007E3743 /* navigationButtonReturn@3x.png in Resources */,
 				1CCF1D041C7EE387007E3743 /* navigationButtonReturnClick@2x.png in Resources */,
+				1CEEADB91C801A7F0093108B /* bilibili_splash_default@3x.png in Resources */,
 				1CCF1CF01C7EE30A007E3743 /* tabBar_me_click_icon@3x.png in Resources */,
+				1CEEADB81C801A7F0093108B /* bilibili_splash_default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -919,6 +930,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CEEADB51C7FF4A10093108B /* MineTableViewCell.swift in Sources */,
 				1CCF1D3F1C7EEC5E007E3743 /* MJRefreshAutoFooter.m in Sources */,
 				1CCF1D561C7EF8FD007E3743 /* GlobalDefine.swift in Sources */,
 				1CEEADB31C7FEE8E0093108B /* String + Extension.swift in Sources */,
