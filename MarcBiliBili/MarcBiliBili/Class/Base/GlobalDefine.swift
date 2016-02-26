@@ -15,13 +15,6 @@ let SCREEN_HEIGHT = (UIScreen.mainScreen().bounds.size.height)
 let kWITHSCALE  = ((UIScreen.mainScreen().bounds.size.width) / 375)
 let kWITHSCALE_4 = ((UIScreen.mainScreen().bounds.size.width) / 320)
 
-////颜色
-//let UIColorFromHex(hex) = [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16))/255.0 green:((float)((hex & 0xFF00) >> 8))/255.0 blue:((float)(hex & 0xFF))/255.0 alpha:1.0]
-//let HWColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
-//// 随机色
-//let RandomColor = HWColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
-//
-
 // 默认图片
 let defaultImg = UIImage(named: "photo_define")
 // NSUserDefault
@@ -31,17 +24,7 @@ let notice = NSNotificationCenter.defaultCenter()
 //判断是不是plus
 let currentModeSize = UIScreen.mainScreen().currentMode?.size
 let isPlus = UIScreen.instancesRespondToSelector("currentMode") ? CGSizeEqualToSize(CGSizeMake(1242, 2208), currentModeSize!) : false
-//判断字符串是否为空
-func trimString(str:String)->String{
-    var nowStr = str.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
-    return nowStr
-}
 
-//去除空格和回车
-func trimLineString(str:String)->String{
-    var nowStr = str.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
-    return nowStr
-}
 //根据键盘监控  获取键盘高度
 func getKeyBoardHeight(aNotification:NSNotification)->CGFloat{
     var uInfo   = aNotification.userInfo as NSDictionary!
@@ -68,13 +51,7 @@ func showAlertView(title:String,message:String)
     alert.addButtonWithTitle("好")
     alert.show()
 }
-//获取本地存储数据
-func get_userDefaults(key : String)->AnyObject?{
-    
-    var saveStr : AnyObject! = userDefault.objectForKey(key)
-    saveStr = (saveStr == nil) ? "" : saveStr
-    return saveStr
-}
+
 //存储数据
 func save_userDefaults(key : String,value:AnyObject?){
     
@@ -90,37 +67,6 @@ func save_userDefaults(key : String,value:AnyObject?){
 //}
 
 
-//安卓16进制颜色
-
-func colorWithHexString (hex:String) -> UIColor {
-    var cString:String = hex.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet()).uppercaseString
-    
-    if (cString.hasPrefix("#")) {
-        cString = (cString as NSString).substringFromIndex(1)
-    }
-    
-    //        if (countElements(cString) != 6) {
-    //            return UIColor.grayColor()
-    //        }
-    
-    if (cString.characters.count != 6)
-    {
-        
-        return UIColor.grayColor()
-    }
-    
-    let rString = (cString as NSString).substringToIndex(2)
-    let gString = ((cString as NSString).substringFromIndex(2) as NSString).substringToIndex(2)
-    let bString = ((cString as NSString).substringFromIndex(4) as NSString).substringToIndex(2)
-    
-    var r:CUnsignedInt = 0, g:CUnsignedInt = 0, b:CUnsignedInt = 0;
-    NSScanner(string: rString).scanHexInt(&r)
-    NSScanner(string: gString).scanHexInt(&g)
-    NSScanner(string: bString).scanHexInt(&b)
-    
-    
-    return UIColor(red: CGFloat(r) / 255.0, green: CGFloat(g) / 255.0, blue: CGFloat(b) / 255.0, alpha: CGFloat(1))
-}
 
 
 

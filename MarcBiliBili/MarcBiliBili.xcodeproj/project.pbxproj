@@ -74,9 +74,11 @@
 		1CCF1D501C7EEC5E007E3743 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1D3C1C7EEC5E007E3743 /* UIScrollView+MJRefresh.m */; };
 		1CCF1D511C7EEC5E007E3743 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1D3E1C7EEC5E007E3743 /* UIView+MJExtension.m */; };
 		1CCF1D561C7EF8FD007E3743 /* GlobalDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1D551C7EF8FD007E3743 /* GlobalDefine.swift */; };
-		1CCF1D581C7F03C4007E3743 /* UIColorExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1D571C7F03C4007E3743 /* UIColorExtend.swift */; };
-		1CEEADA91C7FE5A10093108B /* StringExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEADA81C7FE5A10093108B /* StringExtend.swift */; };
+		1CCF1D581C7F03C4007E3743 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1D571C7F03C4007E3743 /* UIColor+Extension.swift */; };
 		1CEEADAB1C7FEA9C0093108B /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEADAA1C7FEA9C0093108B /* UIImage + Extension.swift */; };
+		1CEEADB01C7FEE8E0093108B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEADAC1C7FEE8E0093108B /* UIView+Extension.swift */; };
+		1CEEADB11C7FEE8E0093108B /* UIDevice + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEADAD1C7FEE8E0093108B /* UIDevice + Extension.swift */; };
+		1CEEADB31C7FEE8E0093108B /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEADAF1C7FEE8E0093108B /* String + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,9 +193,11 @@
 		1CCF1D3D1C7EEC5E007E3743 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		1CCF1D3E1C7EEC5E007E3743 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		1CCF1D551C7EF8FD007E3743 /* GlobalDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalDefine.swift; sourceTree = "<group>"; };
-		1CCF1D571C7F03C4007E3743 /* UIColorExtend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtend.swift; sourceTree = "<group>"; };
-		1CEEADA81C7FE5A10093108B /* StringExtend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtend.swift; sourceTree = "<group>"; };
+		1CCF1D571C7F03C4007E3743 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		1CEEADAA1C7FEA9C0093108B /* UIImage + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
+		1CEEADAC1C7FEE8E0093108B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1CEEADAD1C7FEE8E0093108B /* UIDevice + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice + Extension.swift"; sourceTree = "<group>"; };
+		1CEEADAF1C7FEE8E0093108B /* String + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -741,9 +745,11 @@
 		1CCF1D521C7EF1FD007E3743 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				1CEEADAC1C7FEE8E0093108B /* UIView+Extension.swift */,
+				1CEEADAD1C7FEE8E0093108B /* UIDevice + Extension.swift */,
+				1CEEADAF1C7FEE8E0093108B /* String + Extension.swift */,
 				1CEEADAA1C7FEA9C0093108B /* UIImage + Extension.swift */,
-				1CCF1D571C7F03C4007E3743 /* UIColorExtend.swift */,
-				1CEEADA81C7FE5A10093108B /* StringExtend.swift */,
+				1CCF1D571C7F03C4007E3743 /* UIColor+Extension.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -915,6 +921,7 @@
 			files = (
 				1CCF1D3F1C7EEC5E007E3743 /* MJRefreshAutoFooter.m in Sources */,
 				1CCF1D561C7EF8FD007E3743 /* GlobalDefine.swift in Sources */,
+				1CEEADB31C7FEE8E0093108B /* String + Extension.swift in Sources */,
 				1CCF1D461C7EEC5E007E3743 /* MJRefreshAutoStateFooter.m in Sources */,
 				1CCF1D481C7EEC5E007E3743 /* MJRefreshBackNormalFooter.m in Sources */,
 				1CCF1D4A1C7EEC5E007E3743 /* MJRefreshGifHeader.m in Sources */,
@@ -922,6 +929,7 @@
 				1CCF1D111C7EEC53007E3743 /* ProgressHUD.m in Sources */,
 				1CBF363F1C7EE17300177D99 /* BaseNavigationController.swift in Sources */,
 				1CCF1D431C7EEC5E007E3743 /* MJRefreshHeader.m in Sources */,
+				1CEEADB11C7FEE8E0093108B /* UIDevice + Extension.swift in Sources */,
 				1CCF1D501C7EEC5E007E3743 /* UIScrollView+MJRefresh.m in Sources */,
 				1CCF1D401C7EEC5E007E3743 /* MJRefreshBackFooter.m in Sources */,
 				1CCF1D4E1C7EEC5E007E3743 /* MJRefreshConst.m in Sources */,
@@ -931,12 +939,12 @@
 				1CBF36001C7E949000177D99 /* BaseViewController.swift in Sources */,
 				1CBF36041C7E952300177D99 /* MineVIewController.swift in Sources */,
 				1CCF1D421C7EEC5E007E3743 /* MJRefreshFooter.m in Sources */,
-				1CEEADA91C7FE5A10093108B /* StringExtend.swift in Sources */,
+				1CEEADB01C7FEE8E0093108B /* UIView+Extension.swift in Sources */,
 				1CCF1D411C7EEC5E007E3743 /* MJRefreshComponent.m in Sources */,
 				1CCF1D471C7EEC5E007E3743 /* MJRefreshBackGifFooter.m in Sources */,
 				1CBF36081C7E95A600177D99 /* AttentionViewController.swift in Sources */,
 				1CCF1D4C1C7EEC5E007E3743 /* MJRefreshStateHeader.m in Sources */,
-				1CCF1D581C7F03C4007E3743 /* UIColorExtend.swift in Sources */,
+				1CCF1D581C7F03C4007E3743 /* UIColor+Extension.swift in Sources */,
 				1CCF1D491C7EEC5E007E3743 /* MJRefreshBackStateFooter.m in Sources */,
 				1CEEADAB1C7FEA9C0093108B /* UIImage + Extension.swift in Sources */,
 				1CCF1D511C7EEC5E007E3743 /* UIView+MJExtension.m in Sources */,
