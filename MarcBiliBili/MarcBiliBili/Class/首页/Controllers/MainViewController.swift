@@ -17,11 +17,8 @@ class MainViewController: BaseViewController {
         self.title = "首页"
         let backImageView:UIImageView = UIImageView()
         backImageView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
-        backImageView.image = self.createImageWithColor(UIColor.redColor())
+        backImageView.image = UIImage.createImageWithColor(UIColor.redColor())
         self.view.addSubview(backImageView)
 
     }
-    
-    
-    
 }
