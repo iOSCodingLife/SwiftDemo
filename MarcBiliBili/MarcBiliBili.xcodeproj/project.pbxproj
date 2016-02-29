@@ -75,6 +75,18 @@
 		1CCF1D511C7EEC5E007E3743 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1D3E1C7EEC5E007E3743 /* UIView+MJExtension.m */; };
 		1CCF1D561C7EF8FD007E3743 /* GlobalDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1D551C7EF8FD007E3743 /* GlobalDefine.swift */; };
 		1CCF1D581C7F03C4007E3743 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF1D571C7F03C4007E3743 /* UIColor+Extension.swift */; };
+		1CEBDDD41C83EE3C00B89C73 /* icon_go@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBDDD31C83EE3C00B89C73 /* icon_go@2x.png */; };
+		1CEBDDD61C84128C00B89C73 /* ic_account_balance_wallet_black_24dp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBDDD51C84128C00B89C73 /* ic_account_balance_wallet_black_24dp1.png */; };
+		1CEBDDD81C84129C00B89C73 /* ic_color_lens_black_24dp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBDDD71C84129C00B89C73 /* ic_color_lens_black_24dp1.png */; };
+		1CEBDDDA1C8412A900B89C73 /* ic_file_download_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBDDD91C8412A900B89C73 /* ic_file_download_black_24dp.png */; };
+		1CEBDDDC1C8412D000B89C73 /* ic_help_black_24dp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBDDDB1C8412D000B89C73 /* ic_help_black_24dp1.png */; };
+		1CEBDDDE1C8412E900B89C73 /* ic_history_black_24dp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBDDDD1C8412E900B89C73 /* ic_history_black_24dp1.png */; };
+		1CEBDDE01C8412FC00B89C73 /* ic_home_black_24dp2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBDDDF1C8412FC00B89C73 /* ic_home_black_24dp2.png */; };
+		1CEBDDE21C84130B00B89C73 /* ic_menu_share1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBDDE11C84130B00B89C73 /* ic_menu_share1.png */; };
+		1CEBDDE41C84132300B89C73 /* ic_people_black_24dp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBDDE31C84132300B89C73 /* ic_people_black_24dp1.png */; };
+		1CEBDDE61C84133F00B89C73 /* ic_settings_black_24dp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBDDE51C84133F00B89C73 /* ic_settings_black_24dp1.png */; };
+		1CEBDDE81C84134C00B89C73 /* ic_shop_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBDDE71C84134C00B89C73 /* ic_shop_black_24dp.png */; };
+		1CEBDDEA1C84135800B89C73 /* ic_star_black_24dp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBDDE91C84135800B89C73 /* ic_star_black_24dp1.png */; };
 		1CEEADAB1C7FEA9C0093108B /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEADAA1C7FEA9C0093108B /* UIImage + Extension.swift */; };
 		1CEEADB01C7FEE8E0093108B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEADAC1C7FEE8E0093108B /* UIView+Extension.swift */; };
 		1CEEADB11C7FEE8E0093108B /* UIDevice + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEADAD1C7FEE8E0093108B /* UIDevice + Extension.swift */; };
@@ -197,6 +209,18 @@
 		1CCF1D3E1C7EEC5E007E3743 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		1CCF1D551C7EF8FD007E3743 /* GlobalDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalDefine.swift; sourceTree = "<group>"; };
 		1CCF1D571C7F03C4007E3743 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		1CEBDDD31C83EE3C00B89C73 /* icon_go@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_go@2x.png"; sourceTree = "<group>"; };
+		1CEBDDD51C84128C00B89C73 /* ic_account_balance_wallet_black_24dp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_balance_wallet_black_24dp1.png; sourceTree = "<group>"; };
+		1CEBDDD71C84129C00B89C73 /* ic_color_lens_black_24dp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_color_lens_black_24dp1.png; sourceTree = "<group>"; };
+		1CEBDDD91C8412A900B89C73 /* ic_file_download_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_file_download_black_24dp.png; sourceTree = "<group>"; };
+		1CEBDDDB1C8412D000B89C73 /* ic_help_black_24dp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_help_black_24dp1.png; sourceTree = "<group>"; };
+		1CEBDDDD1C8412E900B89C73 /* ic_history_black_24dp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_history_black_24dp1.png; sourceTree = "<group>"; };
+		1CEBDDDF1C8412FC00B89C73 /* ic_home_black_24dp2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_black_24dp2.png; sourceTree = "<group>"; };
+		1CEBDDE11C84130B00B89C73 /* ic_menu_share1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_share1.png; sourceTree = "<group>"; };
+		1CEBDDE31C84132300B89C73 /* ic_people_black_24dp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_people_black_24dp1.png; sourceTree = "<group>"; };
+		1CEBDDE51C84133F00B89C73 /* ic_settings_black_24dp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_settings_black_24dp1.png; sourceTree = "<group>"; };
+		1CEBDDE71C84134C00B89C73 /* ic_shop_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_shop_black_24dp.png; sourceTree = "<group>"; };
+		1CEBDDE91C84135800B89C73 /* ic_star_black_24dp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_star_black_24dp1.png; sourceTree = "<group>"; };
 		1CEEADAA1C7FEA9C0093108B /* UIImage + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
 		1CEEADAC1C7FEE8E0093108B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1CEEADAD1C7FEE8E0093108B /* UIDevice + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice + Extension.swift"; sourceTree = "<group>"; };
@@ -468,6 +492,18 @@
 		1CBF35F21C7E944800177D99 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1CEBDDE91C84135800B89C73 /* ic_star_black_24dp1.png */,
+				1CEBDDE71C84134C00B89C73 /* ic_shop_black_24dp.png */,
+				1CEBDDE51C84133F00B89C73 /* ic_settings_black_24dp1.png */,
+				1CEBDDE31C84132300B89C73 /* ic_people_black_24dp1.png */,
+				1CEBDDE11C84130B00B89C73 /* ic_menu_share1.png */,
+				1CEBDDDF1C8412FC00B89C73 /* ic_home_black_24dp2.png */,
+				1CEBDDDD1C8412E900B89C73 /* ic_history_black_24dp1.png */,
+				1CEBDDDB1C8412D000B89C73 /* ic_help_black_24dp1.png */,
+				1CEBDDD91C8412A900B89C73 /* ic_file_download_black_24dp.png */,
+				1CEBDDD71C84129C00B89C73 /* ic_color_lens_black_24dp1.png */,
+				1CEBDDD51C84128C00B89C73 /* ic_account_balance_wallet_black_24dp1.png */,
+				1CEBDDD31C83EE3C00B89C73 /* icon_go@2x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -876,36 +912,48 @@
 				1CCF1CF51C7EE30A007E3743 /* tabBar_new_click_icon@2x.png in Resources */,
 				1CCF1CE11C7EE30A007E3743 /* tabbar-light@2x.png in Resources */,
 				1CCF1CF71C7EE30A007E3743 /* tabBar_new_icon.png in Resources */,
+				1CEBDDDE1C8412E900B89C73 /* ic_history_black_24dp1.png in Resources */,
+				1CEBDDD41C83EE3C00B89C73 /* icon_go@2x.png in Resources */,
 				1CCF1CEE1C7EE30A007E3743 /* tabBar_me_click_icon.png in Resources */,
 				1CCF1CE81C7EE30A007E3743 /* tabBar_friendTrends_click_icon.png in Resources */,
+				1CEBDDE61C84133F00B89C73 /* ic_settings_black_24dp1.png in Resources */,
 				1CCF1CF11C7EE30A007E3743 /* tabBar_me_icon.png in Resources */,
 				1CCF1CFE1C7EE375007E3743 /* navigationButtonReturn@2x.png in Resources */,
 				1CCF1CE31C7EE30A007E3743 /* tabBar_essence_click_icon@2x.png in Resources */,
+				1CEBDDD81C84129C00B89C73 /* ic_color_lens_black_24dp1.png in Resources */,
+				1CEBDDE01C8412FC00B89C73 /* ic_home_black_24dp2.png in Resources */,
+				1CEBDDE41C84132300B89C73 /* ic_people_black_24dp1.png in Resources */,
 				1CCF1CEA1C7EE30A007E3743 /* tabBar_friendTrends_click_icon@3x.png in Resources */,
 				1CCF1CE51C7EE30A007E3743 /* tabBar_essence_icon.png in Resources */,
 				1CCF1CE91C7EE30A007E3743 /* tabBar_friendTrends_click_icon@2x.png in Resources */,
+				1CEBDDE21C84130B00B89C73 /* ic_menu_share1.png in Resources */,
 				1CCF1CF21C7EE30A007E3743 /* tabBar_me_icon@2x.png in Resources */,
 				1CCF1CF81C7EE30A007E3743 /* tabBar_new_icon@2x.png in Resources */,
 				1CCF1CED1C7EE30A007E3743 /* tabBar_friendTrends_icon@3x.png in Resources */,
 				1CCF1CE41C7EE30A007E3743 /* tabBar_essence_click_icon@3x.png in Resources */,
 				1CCF1CF41C7EE30A007E3743 /* tabBar_new_click_icon.png in Resources */,
+				1CEBDDD61C84128C00B89C73 /* ic_account_balance_wallet_black_24dp1.png in Resources */,
 				1CCF1D4D1C7EEC5E007E3743 /* MJRefresh.bundle in Resources */,
 				1CCF1D071C7EE957007E3743 /* navigationbarBackgroundWhite.png in Resources */,
 				1CCF1CF31C7EE30A007E3743 /* tabBar_me_icon@3x.png in Resources */,
+				1CEBDDDC1C8412D000B89C73 /* ic_help_black_24dp1.png in Resources */,
 				1CCF1CE21C7EE30A007E3743 /* tabBar_essence_click_icon.png in Resources */,
 				1CCF1CEB1C7EE30A007E3743 /* tabBar_friendTrends_icon.png in Resources */,
+				1CEBDDDA1C8412A900B89C73 /* ic_file_download_black_24dp.png in Resources */,
 				1CCF1CF91C7EE30A007E3743 /* tabBar_new_icon@3x.png in Resources */,
 				1CCF1CE01C7EE30A007E3743 /* tabbar-light.png in Resources */,
 				1CCF1CEC1C7EE30A007E3743 /* tabBar_friendTrends_icon@2x.png in Resources */,
 				1CCF1CF61C7EE30A007E3743 /* tabBar_new_click_icon@3x.png in Resources */,
 				1C67D7431C7C4DFC0020A754 /* Assets.xcassets in Resources */,
 				1CCF1CE71C7EE30A007E3743 /* tabBar_essence_icon@3x.png in Resources */,
+				1CEBDDE81C84134C00B89C73 /* ic_shop_black_24dp.png in Resources */,
 				1CCF1D101C7EEC53007E3743 /* ProgressHUD.bundle in Resources */,
 				1CCF1CFF1C7EE375007E3743 /* navigationButtonReturn@3x.png in Resources */,
 				1CCF1D041C7EE387007E3743 /* navigationButtonReturnClick@2x.png in Resources */,
 				1CEEADB91C801A7F0093108B /* bilibili_splash_default@3x.png in Resources */,
 				1CCF1CF01C7EE30A007E3743 /* tabBar_me_click_icon@3x.png in Resources */,
 				1CEEADB81C801A7F0093108B /* bilibili_splash_default@2x.png in Resources */,
+				1CEBDDEA1C84135800B89C73 /* ic_star_black_24dp1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
